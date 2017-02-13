@@ -15,8 +15,8 @@ npm i
 
 ## Build
 
-npm run start : "ng serve",
-npm run build : "ng build",
-npm run prepare : "cp -a electron/. dist",
-npm run electron : "ng build && npm run prepare && electron dist",
+npm run start : "ng serve" \n
+npm run build : "ng build" \n
+npm run prepare : "cp -a electron/. dist" \n
+npm run electron : "ng build && npm run prepare && electron dist" \n
 npm run package : "npm run build && npm run prepare && ./node_modules/electron-packager/cli.js dist App --platform=darwin --arch=all --out=dist-app --overwrite"
